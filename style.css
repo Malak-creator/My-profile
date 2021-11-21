@@ -1,0 +1,41 @@
+/*colors and fonts */
+body{
+	background-color: rgb(250,230,230);
+	color: rgb(30,30,30);
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1,h2,h3{
+	font-family: Courier;
+}
+h1{
+	color: purple;
+	font-weight: 100px;
+	letter-spacing: 10px;
+	font-size: 32px;
+}
+h2{
+	color: rgb(179,34,67);
+	font-size: 35px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: purple;
+}
+a: hover {
+   color: yellow;
+
+}
+.img-circle{
+	border-radius: 50%;
+} 
+.card-white{
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
